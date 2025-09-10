@@ -1,0 +1,46 @@
+ /* FONDO DE LA PAGINA*/
+
+body{
+   background-color:rgb(207, 188, 188);
+}
+
+ /* ESTILO DE TITULO */
+
+ h1{
+    color: black; 
+    text-align: center;
+    font-family: Lucida Handwriting;
+    font-size: 15px;
+    background-color: rgb(251, 100, 153);
+ }
+ 
+   h2{
+      color: black;
+      font-family: AlgerianBookman Old Style;
+      font-size: x-large;
+   }
+
+
+  /* ESTILO DEL MENU*/
+ a {
+    color: rgb(222, 97, 139);
+    font-family: AlgerianBookman Old Style;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 150px; 
+ }
+
+ /* ESTILO PARA PIE DE PAGINA*/
+ footer {
+    color: black;
+    font-family: AlgerianBookman Old Style;
+    font-size: 20px;
+
+ }
+
+ /*CREAR CUENTA Y CONTACTO*/
+ form ol li {
+     text-align: center;
+     list-style: none;
+ }
+
