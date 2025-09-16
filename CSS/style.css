@@ -9,9 +9,9 @@
  /* FONDO DE LA PAGINA*/
 
 body{
-   background-color:rgb(207, 188, 188);
+   background-color:rgb(239, 224, 224);
 }
-/* estilos mobile */
+
 /* estilos de header */
 
 header{
@@ -22,12 +22,10 @@ header{
 
 header nav ul{
     list-style-type: none;
-    color: whitesmoke;
     display: flex;
     gap: 0.5rem;
     padding-right: 1.5rem;
-    color: rgb(222, 97, 139);
-    font-family: AlgerianBookman Old Style;
+    color: black;
     font-size: 20px;
 }
 
@@ -36,9 +34,7 @@ header nav ul{
  h1{
     color: black; 
     text-align: center;
-    font-family: Lucida Handwriting;
-    font-size: 15px;
-    background-color: rgb(251, 100, 153);
+    font-size: 20px;
  }
  
    h2{
@@ -49,24 +45,35 @@ header nav ul{
 
  /* ESTILO PARA PIE DE PAGINA*/
  footer {
-    color: rgb(139, 132, 132);
+    color: rgb(99, 96, 96);
     font-family: AlgerianBookman Old Style;
     font-size: 15px;
+    list-style: none;
+    
 
  }
 
  /*CREAR CUENTA Y CONTACTO*/
  form ol li {
+    display: flex;
+    flex-direction: column;
      text-align: center;
      list-style: none;
  }
 
- /* estilos de tablet */
-@media (min-width: 600px){
-
+section {
+    height: 80vh;
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    align-content: center;
 }
 
-/* estilos de desktop */
-@media (min-width: 1024px) {
- 
+section div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
+
+
