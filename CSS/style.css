@@ -1,12 +1,21 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+h1 {
+  text-align: center;
+  background-color: rgb(225, 168, 177);
+  margin: 30px;
+}
+
 h2 {
   text-align: center;
-  color: rgb(44, 40, 40);
   background-color: rgb(225, 168, 177);
   margin: 30px;
 }

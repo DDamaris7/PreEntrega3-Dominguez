@@ -13,3 +13,8 @@
      align-items: center;
 }
 
+@mixin encabezados{
+    text-align: center;
+    background-color: rgb(225, 168, 177);
+    margin: 30px;
+}
