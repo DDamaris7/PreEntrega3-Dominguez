@@ -9,6 +9,12 @@ main{
 
 }
 
+h2{
+    text-align: center;
+    color: $color-secundario;
+    background-color: rgb(225, 168, 177);
+    margin: 30px;
+}
 
 footer{
      @include flex
@@ -42,15 +48,32 @@ main div img {
     
 }
 
+form ul li {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+        
+}
+
 .footerp {
     h2 {
         font-size: large;
         margin: 20px;
     }
 }
-  
 
-@media screen and (max-width: 600px){
+// ANIMACION SE COLOCA EN LA PAGES DE PRODUCTO
+.animacion:hover {
+  
+  transform: scale(1.2);   
+}
+
+.animacion {
+    transition: transform 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width: 1000px){
 
     header{
        display: flex;
